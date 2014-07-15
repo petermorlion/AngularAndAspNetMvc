@@ -26,6 +26,16 @@ namespace AngularAndAspNetMvc
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new Bundle("~/bundles/angular").Include(
+                      "~/Scripts/angular.js",
+                      "~/Scripts/angular-animate.js",
+                      "~/Scripts/angular-route.js",
+                      "~/Scripts/angular-sanitize.js",
+                      "~/Scripts/app/app.js",
+                      "~/Scripts/app/config.js",
+                      "~/Scripts/app/main.js",
+                      "~/Scripts/app/customers/customers.js"));
         }
     }
 }
