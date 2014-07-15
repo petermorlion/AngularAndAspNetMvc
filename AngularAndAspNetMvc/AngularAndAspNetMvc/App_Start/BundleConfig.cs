@@ -35,7 +35,8 @@ namespace AngularAndAspNetMvc
                       "~/Scripts/app/app.js",
                       "~/Scripts/app/config.js",
                       "~/Scripts/app/main.js",
-                      "~/Scripts/app/customers/customers.js"));
+                      "~/Scripts/app/customers/customers.js",
+                      "~/Scripts/app/customers/create.js"));
         }
     }
 }

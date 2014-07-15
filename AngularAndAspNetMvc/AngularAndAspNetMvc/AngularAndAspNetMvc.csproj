@@ -197,6 +197,8 @@
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\app\app.js" />
     <Content Include="Scripts\app\config.js" />
+    <Content Include="Scripts\app\customers\create.html" />
+    <Content Include="Scripts\app\customers\create.js" />
     <Content Include="Scripts\app\customers\customers.html" />
     <Content Include="Scripts\app\customers\customers.js" />
     <Content Include="Scripts\app\main.js" />

@@ -20,14 +20,18 @@
         routes.forEach(function (r) {
             $routeProvider.when(r.url, { templateUrl: r.templateUrl });
         });
-        $routeProvider.otherwise({ redirectTo: '/' });
+        $routeProvider.otherwise({ redirectTo: '/customers' });
     }
 
     function getRoutes() {
         return [
             {
-                url: '/',
+                url: '/customers',
                 templateUrl: '/Scripts/app/customers/customers.html'
+            },
+            {
+                url: '/customers/create',
+                templateUrl: '/Scripts/app/customers/create.html'
             }
         ];
     }
