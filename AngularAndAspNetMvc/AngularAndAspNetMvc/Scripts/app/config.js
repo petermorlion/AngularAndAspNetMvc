@@ -32,6 +32,10 @@
             {
                 url: '/customers/create',
                 templateUrl: '/Scripts/app/customers/create.html'
+            },
+            {
+                url: '/customersmvc',
+                templateUrl: '/customersmvc/'
             }
         ];
     }

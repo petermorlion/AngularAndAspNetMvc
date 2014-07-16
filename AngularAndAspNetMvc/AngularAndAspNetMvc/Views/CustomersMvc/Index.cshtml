@@ -1,0 +1,22 @@
+﻿@model IEnumerable<string>
+
+<section id="dashboard-view" class="mainbar" data-ng-controller="customersmvc as vm">
+    <h1>{{vm.title}}</h1>
+
+    <a href="/Angular/#/customers/create">Create new customer</a>
+
+    <p>
+        The title of this view is rendered via Angular, whereas the customer names are added to
+        the HTML on the server.
+    </p>
+
+    <div>
+        <ul>
+            @foreach (var name in Model)
+            {
+                <li>@name</li>
+            }
+        </ul>
+    </div>
+
+</section>
