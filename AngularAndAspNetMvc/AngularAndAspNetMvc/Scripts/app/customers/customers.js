@@ -7,15 +7,16 @@
 
             var vm = this;
             vm.title = 'Customers, pure Angular';
+            vm.names = [];
 
-            //$http({
-            //    method: 'GET',
-            //    url: '/breeze/matches/Statistics'
-            //}).success(function (data, status, headers, config) {
-                
-            //}).error(function (data, status, headers, config) {
-                
-            //});
+            $http({
+                method: 'GET',
+                url: '/api/rest/'
+            }).success(function (data, status, headers, config) {
+                vm.names = data;
+            }).error(function (data, status, headers, config) {
+              
+            });
 
         }]);
 })();

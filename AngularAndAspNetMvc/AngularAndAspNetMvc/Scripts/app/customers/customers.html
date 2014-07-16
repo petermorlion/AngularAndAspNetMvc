@@ -4,7 +4,9 @@
     <a href="/Angular/#/customers/create">Create new customer</a>
 
     <div>
-        Customers here
+        <ul>
+            <li ng-repeat="name in vm.names">{{name}}</li>
+        </ul>
     </div>
 
 </section>
