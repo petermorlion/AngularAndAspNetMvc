@@ -14,5 +14,5 @@ namespace AngularAndAspNetMvc.Controllers
         {
             return View();
         }
-	}
+    }
 }
